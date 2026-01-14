@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mury, Drabiny i Kamienie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Mury, Drabiny i Kamienie</h1>
+        </div>
+        <div class="row"></div>
+        <div class="container_content">
+
+            <div class="menu">
+
+                <img src="decoration.png" class="decor">
+
+                <a href="index.html">Strona Główna</a>
+                <div class="line_container">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <a href="galeria.html">Galeria</a>
+                <div class="line_container">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                
+                <a href="zasady.html">Zasady</a>
+                <div class="line_container">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <a href="zamow.html">Zamów</a>
+            </div>
+
+            <div class="content">
+                <div class="box">
+                    <h2>Zamów</h2>
+                    <form class="order-form">
+
+                        <label for="fname">Imię:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Imię"><br>
+
+                        <label for="surname"> Nazwisko:</label><br>
+                        <input type="text" id="surname" name="surname" placeholder="Nazwisko"><br>
+
+                        <label for="phone">Numer telefonu:</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-789"><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="mail" id="email" name="email" placeholder="mail@mail.com"><br>
+
+                        <label for="adress">Adres:</label><br>
+                        <input type="text" id="adress" name="adress_street" placeholder="Ulica"><br>
+                        <input type="text" id="adress" name="adress_city" placeholder="Miasto"><br>
+                        <input type="text" id="adress" name="adress_code" placeholder="11-111"><br>
+
+                        <label>
+                            <input type="radio" name="choice" value="option1">
+                            Mastercard
+                        </label><br>
+
+                        <label>
+                            <input type="radio" name="choice" value="option2">
+                            Przelewy24
+                        </label><br>
+
+                        <label>
+                            <input type="radio" name="choice" value="option3">
+                            PayU
+                        </label><br>
+
+                        <label>
+                            <input type="radio" name="choice" value="option3">
+                            BLIK
+                        </label><br>
+                        
+                        <div class="line"></div>
+
+                        <p>Cena: 39.99 zł</p>
+
+                        <input type="button" onclick="alert('Przekierowywanie do strony płatności')" value="Zamów">
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
